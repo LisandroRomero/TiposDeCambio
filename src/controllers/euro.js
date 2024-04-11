@@ -12,6 +12,6 @@ const euro = async()=>{
   }
 }
 euro()
-module.export = {
+module.exports = {
   euro
 }

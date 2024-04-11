@@ -12,4 +12,4 @@ const dolarBlue = async()=>{
 };
 
 dolarBlue()
- module.export = { dolarBlue }
+ module.exports = { dolarBlue }

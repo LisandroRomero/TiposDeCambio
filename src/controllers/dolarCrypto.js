@@ -18,6 +18,6 @@ const dolarCrypto = async()=>{
  
 
 dolarCrypto()
-module.export = {
+module.exports = {
   dolarCrypto
 }
