@@ -11,5 +11,5 @@ const dolarBlue = async () => {
   }
 };
 
-dolarBlue();
+
 module.exports = dolarBlue;

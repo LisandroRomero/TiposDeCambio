@@ -11,5 +11,5 @@ const dolarCrypto = async () => {
   }
 };
 
-dolarCrypto();
+
 module.exports = dolarCrypto;

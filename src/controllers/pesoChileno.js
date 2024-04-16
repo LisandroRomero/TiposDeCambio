@@ -10,6 +10,6 @@ const pesoChileno = async () => {
     console.log(error);
   }
 };
-pesoChileno();
+ 
 module.exports = pesoChileno;
 

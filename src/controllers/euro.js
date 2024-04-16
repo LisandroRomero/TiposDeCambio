@@ -11,5 +11,5 @@ const euro = async () => {
     console.log(error);
   }
 };
-euro();
+
 module.exports = euro;
