@@ -14,8 +14,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //Routes
 app.use("/euro", require("./routes/euroRoutes"));
-app.use("/dolarblue", require("./routes/dolarBlueRoutes"));
-app.use("/dolarCrypto", require("./routes/dolarCryptoRoutes"));
+app.use("/dolarblue", require("./routes/dolarBlueRoutes"));      //podria usar solo una ruta y que cada una de estas se divida
+app.use("/dolarCrypto", require("./routes/dolarCryptoRoutes"));  //ya que los dos son dolares, y podria el oficial tmb ya que estamos
 app.use("/pesoChileno", require("./routes/pesoChilenoRoute"));
 
 module.exports = app;
