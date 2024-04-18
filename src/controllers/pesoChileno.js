@@ -4,7 +4,7 @@ const pesoChileno = async () => {
     await fetch("https://dolarapi.com/v1/cotizaciones/clp")
       .then((response) => response.json())
       .then((res) => (cambioChileno = res));
-    console.log(cambioChileno);
+
     return cambioChileno;
   } catch (error) {
     console.log(error);
